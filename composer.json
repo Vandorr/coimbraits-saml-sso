@@ -1,0 +1,16 @@
+{
+  "name": "coimbraits/saml-sso",
+  "description": "SAML SSO Authentication",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "robrichards/xmlseclibs": "^3.0",
+    "php": ">=7.1.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "coimbraits\\SamlSSO\\": "src/"
+    }
+  }
+}
